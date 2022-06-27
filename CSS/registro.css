@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main
+{
+    width: auto;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../IMG/salon1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.icon
+{
+    width: 1000px;
+    float: left;
+    height: 70px;
+}
+.logo
+{
+    color: #fffefd;
+    font-size: 60px;
+    font-family: Arial;
+    padding-left: 310px;
+    float: center;
+    padding-top: 10px;
+    margin-top: 5px;
+    text-shadow:red -3px 0,
+                cyan 3px 0;
+}
+.content
+{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(250, 248, 248);
+    position: relative;
+}
+.content .par
+{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.form
+{
+    width: 250px;
+    height: 450px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%,rgba(0,0,0,0.8)50%);
+    position: relative;
+    top: 190px;
+    left: 450px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+.form input
+{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #e706f7;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.btnn
+{
+    width: 240px;
+    height: 40px;
+    background:linear-gradient(90deg,rgb(61, 1, 51), rgb(149, 2, 168));
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover
+{
+    
+    cursor: pointer;
+    background:linear-gradient(90deg,rgb(149, 2, 168), rgb(61, 1, 51));
+    margin-top: 30px;
+    border-radius: 10px;
+    color: #ff7200;
+}
+.btnn a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.form input:focus
+{
+    border: 2px solid rgb(0, 0, 0);  
+    background-color: #282928;
+    color: rgb(255, 253, 253);
+}

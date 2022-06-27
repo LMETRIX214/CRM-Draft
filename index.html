@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NEGELE</title>
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="./CSS/catalogo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>     
+
+    <!--Analytics-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LLH41JJLD5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-LLH41JJLD5');
+    </script>
+
+  </head>
+  
+  <body>
+    
+    <!--Menu-->
+    <nav>
+      <div class="logo">NEGELE</div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="./HTML/registro.html">Registrar Sal&oacute;n</a></li>
+        <li><a class="btnn" onclick="ver()" title="Actualizar vista">Ver datos</a></li>
+      </ul>
+    </nav>
+    
+    <!--Tarjetas-->
+    <div class="blog-card alt">
+      <div class="meta">
+        <div class="photo" style="background-image: url(./IMG/S1.jpeg)"></div>
+        <ul class="details">
+          <li id="DIR" class="author">...</li>
+          <li id="CAP" class="date">...</li>
+          <li id="ETQ" class="date">...</li>
+          <li class="tags">
+        <ul>
+          <li><a id="SWEB">...</a></li>
+        </ul>
+        </li>    
+      </ul>
+    </div>
+    <div class="description">
+      <h1 id="NCS">...</h1>
+      <h2 id="NLS">...</h2>
+      <p id="DES">...</p>
+      </p>
+    </div>
+  </div>
+
+    <!--Footer-->
+    <div class="footer">
+      <div class="contain">
+        <div class="col">
+          <h1>M&Eacute;xico</h1>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        
+        <div class="col">
+          <h1></h1>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+
+      <div class="col">
+        <h1></h1>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+
+      <div class="col">
+        <h1></h1>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li>© Copyright</li>
+          </ul>
+      </div>
+
+      <div class="col">
+        <h1></h1>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+      </div>
+      
+      <div class="clearfix"></div>
+    </div>
+
+  </div>
+
+  </body>
+
+  <!--Archivos JS-->
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+  <script src="../JS/configuracion.js"></script>
+  <script src="../JS/guardar.js"></script>
+  <script src="./JS/ver.js"></script>
+
+</html>

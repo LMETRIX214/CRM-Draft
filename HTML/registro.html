@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NEGELE</title>
+        <link rel="stylesheet" href="../CSS/registro.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo">SALONES DE FIESTAS</h2>
+                </div>
+            </div> 
+            <div class="content">
+            <form>
+
+                <div class="form">
+                    
+                    <label for="name" class="input-label">Nombre completo del salon</label>
+                    <input type="text" id="NLS" required class="input">
+
+                    <label for="name" class="input-label">Abreviatura del nombre</label>
+                    <input type="text" id="NCS" required class="input">
+
+                    <label for="name" class="input-label">Tipos de eventos</label>
+                    <input type="text" id="ETQ" required class="input">
+
+                    <label for="name" class="input-label">Descripcion</label>
+                    <input type="text" id="DES" required class="input">
+
+                    <label for="name" class="input-label">Direccion</label>
+                    <input type="text" id="DIR" required class="input">
+
+                    <label for="name" class="input-label">Capacidad del salon</label>
+                    <input type="text" id="CAP" required class="input">
+
+                    <label for="name" class="input-label">Sitio WEB</label>
+                    <input type="text" id="SWEB" required class="input">
+                    
+                    <label for="name" class="input-label">Foto del salon</label>
+                    <input type="file" id="IMAG" name="foto"><br><br>
+                
+                </div>
+                <!--No mover el boton de esta posicion-->
+                <a class="btnn" onclick="guardar()">ENVIAR</a>
+            </form>
+
+            </div>
+        </div>
+
+    </body>
+
+    <!--Archivos JS-->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="../JS/configuracion.js"></script>
+    <script src="../JS/guardar.js"></script>
+
+</html>
