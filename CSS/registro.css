@@ -9,7 +9,7 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../IMG/salon1.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 140vh;
 }
 .icon
 {
@@ -48,10 +48,10 @@
 .form
 {
     width: 250px;
-    height: 450px;
+    height: 810px;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%,rgba(0,0,0,0.8)50%);
     position: relative;
-    top: 190px;
+    top: 200px;
     left: 450px;
     transform: translate(0%,-5%);
     border-radius: 10px;
@@ -75,7 +75,7 @@
 .btnn
 {
     width: 240px;
-    height: 40px;
+    height: 20px;
     background:linear-gradient(90deg,rgb(61, 1, 51), rgb(149, 2, 168));
     border: none;
     margin-top: 30px;
@@ -83,22 +83,20 @@
     border-radius: 10px;
     cursor: pointer;
     color: #fff;
-    transition: 0.4s ease;
+    text-align: center;
+    position: fixed;
 }
 .btnn:hover
 {
-    
-    cursor: pointer;
     background:linear-gradient(90deg,rgb(149, 2, 168), rgb(61, 1, 51));
-    margin-top: 30px;
-    border-radius: 10px;
-    color: #ff7200;
+    color: #000000;
 }
 .btnn a
 {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: bold;
+
 }
 .form input:focus
 {
