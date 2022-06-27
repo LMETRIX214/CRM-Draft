@@ -1,75 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Plantilla web</title>
-    <link rel="stylesheet" href="style.css">
+<html>
+  <head>
+    <title>NEGELE</title>
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HCDJP29W1D"></script>
-    
+    <!--Estilos-->
+    <link rel="stylesheet" href="./CSS/catalogo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>     
+
+    <!--Analytics-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LLH41JJLD5"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-HCDJP29W1D');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-LLH41JJLD5');
     </script>
 
-</head>
-<body>
-
-    <div class="main">
-        <div class="navbar">
-            <div class="icon">
-                <h2 class="logo">LMETRIX214</h2>
-            </div>
-
-            <div class="menu">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SERVICE</a></li>
-                    <li><a href="#">DESIGN</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </div>
-
-            <div class="search">
-                <input class="srch" type="search" name="" placeholder="Type To text">
-                <a href="#"> <button class="btn">Search</button></a>
-            </div>
-
-        </div> 
-        <div class="content">
-            <h1>Web Design & <br><span>Development</span> <br>Course</h1>
-            <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque 
-                 expedita atque eveniet <br> quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus 
-                <br> a quae totam ipsa illum minus laudantium?</p>
-
-                <button class="cn"><a href="#">JOIN US</a></button>
-
-                <div class="form">
-                    <h2>Login Here</h2>
-                    <input type="email" name="email" placeholder="Enter Email Here">
-                    <input type="password" name="" placeholder="Enter Password Here">
-                    <button class="btnn"><a href="#">Login</a></button>
-
-                    <p class="link">Don't have an account<br>
-                    <a href="#">Sign up </a> here</a></p>
-                    <p class="liw">Log in with</p>
-
-                    <div class="icons">
-                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
-                    </div>
-
-                </div>
-                    </div>
-                </div>
-        </div>
+  </head>
+  
+  <body>
+    
+    <!--Menu-->
+    <nav>
+      <div class="logo">NEGELE</div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="./HTML/registro.html">Registrar Sal&oacute;n</a></li>
+        <li><a class="btnn" onclick="ver()" title="Actualizar vista">Ver datos</a></li>
+      </ul>
+    </nav>
+    
+    <!--Tarjetas-->
+    <div class="blog-card alt">
+      <div class="meta">
+        <div class="photo" style="background-image: url(./IMG/S1.jpeg)"></div>
+        <ul class="details">
+          <li id="DIR" class="author">...</li>
+          <li id="CAP" class="date">...</li>
+          <li id="ETQ" class="date">...</li>
+          <li class="tags">
+        <ul>
+          <li><a id="SWEB">...</a></li>
+        </ul>
+        </li>    
+      </ul>
     </div>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-</body>
+    <div class="description">
+      <h1 id="NCS">...</h1>
+      <h2 id="NLS">...</h2>
+      <p id="DES">...</p>
+      </p>
+    </div>
+  </div>
+
+    <!--Footer-->
+    <div class="footer">
+      <div class="contain">
+        <div class="col">
+          <h1>M&Eacute;xico</h1>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        
+        <div class="col">
+          <h1></h1>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+
+      <div class="col">
+        <h1></h1>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+
+      <div class="col">
+        <h1></h1>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li>© Copyright</li>
+          </ul>
+      </div>
+
+      <div class="col">
+        <h1></h1>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+      </div>
+      
+      <div class="clearfix"></div>
+    </div>
+
+  </div>
+
+  </body>
+
+  <!--Archivos JS-->
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+  <script src="../JS/configuracion.js"></script>
+  <script src="../JS/guardar.js"></script>
+  <script src="./JS/ver.js"></script>
+
 </html>
